@@ -7,7 +7,9 @@
 </head>
 <body>
 <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css?v=1234" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
-<link rel="stylesheet" href="side-menu.css">
+<link rel="stylesheet" href="side-menu.css" media="none" onload="if(media!='all')media='all'">
+<noscript><link rel="stylesheet" href="side-menu.css"></noscript>
+
 <div id="layout">
     <!-- Menu toggle -->
     <a href="#menu" id="menuLink" class="menu-link">
